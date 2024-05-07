@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 function Header(props) {
   const hS = {backgroundColor: props.bgColor, color:props.textColor}
   return (
-    <Link to="/">
+    <Link to="/" style={{textDecoration:'none'}} >
     <header style={hS}>
         <div className="container">
             <h2>{props.text}</h2>
